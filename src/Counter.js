@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Counter = (number) => {
+const Counter = ({ number }) => {
   const [count, setCount] = useState(0);
 
   // useEffect(() => {
@@ -12,11 +12,12 @@ const Counter = (number) => {
   // }, [count]);
 
   const handleChange = (e) => {
-    console.log('Value: ', e.target.value)
+    console.log('Value: ', e.target.value);
+    console.log('Number in Counter: ', number);
     if(e.target.value === '+') {
-      setCount(count + number);
+      setCount(count + parseInt(number));
     } else if(e.target.value === '-') {
-      setCount(count - number);
+      setCount(count - parseInt(number));
     }
   }
 

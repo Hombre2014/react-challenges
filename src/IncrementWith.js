@@ -4,13 +4,15 @@ import Counter from './Counter';
 const IncrementWith = () => {
   const [number, setNumber] = useState(1);
 
-  useEffect(() => {
-    setNumber(JSON.parse(window.localStorage.getItem('increment_with_value')));
-  }, []);
+  // useEffect(() => {
+  //   setNumber(JSON.parse(window.localStorage.getItem('increment_with_value')));
+  // }, []);
 
-  useEffect(() => {
-    window.localStorage.setItem('increment_with_value', number);
-  }, [number]);
+  // useEffect(() => {
+  //   window.localStorage.setItem('increment_with_value', number);
+  // }, [number]);
+
+  console.log('Number: ', number);
 
   // const handleIncrement = (e) => {
   //   setNumber(parseInt(e.target.value));
