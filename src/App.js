@@ -3,6 +3,7 @@ import IncrementWith from './IncrementWith';
 import Users from './Users';
 import ToggleBlock from './ToggleBlock';
 import DataBinding from './DataBinding';
+import DisabledButton from './DisabledButton';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Users />
       <ToggleBlock />
       <DataBinding />
+      <DisabledButton />
     </div>
   );
 }

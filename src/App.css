@@ -14,7 +14,8 @@
 .title {
   text-align: center; }
 
-#block {
+#block,
+.mtop {
   margin-top: 1rem; }
 
 /*# sourceMappingURL=App.css.map */
