@@ -1,12 +1,12 @@
 import './App.css';
-// import Counter from './Counter';
 import IncrementWith from './IncrementWith';
+import Users from './Users';
 
 const App = () => {
   return (
     <div className="App">
-      {/* <Counter /> */}
       <IncrementWith />
+      <Users />
     </div>
   );
 }

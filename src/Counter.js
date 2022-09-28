@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Counter = ({ number }) => {
   const [count, setCount] = useState(0);
 
-  // useEffect(() => {
-  //   setCount(JSON.parse(window.localStorage.getItem('counter_value')));
-  // }, []);
+  useEffect(() => {
+    setCount(JSON.parse(window.localStorage.getItem('counter_value')));
+  }, []);
 
-  // useEffect(() => {
-  //   window.localStorage.setItem('counter_value', count);
-  // }, [count]);
+  useEffect(() => {
+    window.localStorage.setItem('counter_value', count);
+  }, [count]);
 
   const handleChange = (e) => {
     console.log('Value: ', e.target.value);
