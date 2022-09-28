@@ -16,7 +16,7 @@ const IncrementWith = () => {
     <div className='container'>
       <Counter number={number} />
       <div>
-        <h1 id='title'>Increment With</h1>
+        <h2 id='title'>Increment With</h2>
         <input type='number' id='increment' value={number} onChange={(e) => setNumber(e.target.value)} />
       </div>
     </div>

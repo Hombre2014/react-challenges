@@ -15,7 +15,7 @@ const ToggleBlock = () => {
 
   return (
     <div className='container'>
-      <h1>ToggleBlock</h1>
+      <h2>ToggleBlock</h2>
       <button onClick={() => handleToggle()}>{show}</button>
       <div id='block' className=''>Toggle challenge</div>
     </div>

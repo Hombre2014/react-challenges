@@ -9,7 +9,7 @@ const Users = () => {
 
   return (
     <div className='container'>
-      <h1>Users</h1>
+      <h2>Users</h2>
       <ul>
         {users.map((user, index) => {
           return (

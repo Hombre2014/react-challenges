@@ -23,7 +23,7 @@ const Counter = ({ number }) => {
 
   return (
     <div className='container'>
-      <h1>Counter</h1>
+      <h2>Counter</h2>
       <div className='counter'>
         <span>{count}</span>
         <button type='submit' onClick={(e) => handleChange(e)} value={'+'}>+</button>
