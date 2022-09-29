@@ -4,6 +4,7 @@ import Users from './Users';
 import ToggleBlock from './ToggleBlock';
 import DataBinding from './DataBinding';
 import DisabledButton from './DisabledButton';
+import ChildParent from './ChildParent';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <ToggleBlock />
       <DataBinding />
       <DisabledButton />
+      <ChildParent />
     </div>
   );
 }

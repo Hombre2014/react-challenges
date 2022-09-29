@@ -18,4 +18,20 @@
 .mtop {
   margin-top: 1rem; }
 
+div {
+  padding: 10px; }
+
+button {
+  margin: 10px 0;
+  padding: 5px 10px; }
+
+.wrapper {
+  padding: 10px;
+  border: 2px solid #efefef;
+  margin-bottom: 10px; }
+
+.box-wrapper {
+  border: 2px solid #f76cb2;
+  width: max-content; }
+
 /*# sourceMappingURL=App.css.map */
