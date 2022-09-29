@@ -5,6 +5,9 @@ import ToggleBlock from './ToggleBlock';
 import DataBinding from './DataBinding';
 import DisabledButton from './DisabledButton';
 import ChildParent from './ChildParent';
+import ParentChildren from './ParentChildren';
+import Child from './Child';
+import AddTwoNumbers from './AddTwoNumbers';
 
 const App = () => {
   return (
@@ -16,6 +19,10 @@ const App = () => {
       <DataBinding />
       <DisabledButton />
       <ChildParent />
+      <ParentChildren>
+        <Child />
+      </ParentChildren>
+      <AddTwoNumbers />
     </div>
   );
 }
