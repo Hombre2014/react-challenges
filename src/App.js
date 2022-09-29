@@ -8,6 +8,7 @@ import ChildParent from './ChildParent';
 import ParentChildren from './ParentChildren';
 import Child from './Child';
 import AddTwoNumbers from './AddTwoNumbers';
+import FetchUserData from './FetchUserData';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Child />
       </ParentChildren>
       <AddTwoNumbers />
+      <FetchUserData />
     </div>
   );
 }
